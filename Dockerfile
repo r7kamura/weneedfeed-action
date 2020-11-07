@@ -5,6 +5,6 @@ WORKDIR /app
 COPY Gemfile Gemfile.lock /app/
 RUN bundle install
 
-COPY entrypoint.sh Rakefile /app/
+COPY entrypoint.sh /app/
 
 ENTRYPOINT ["/app/entrypoint.sh"]
