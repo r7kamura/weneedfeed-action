@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-BUNDLE_GEMFILE=/app/Gemfile bundle exec rake --rakefile /app/Rakefile build[$1,$2]
+bundle exec --gemfile=/app/Gemfile weneedfeed build --base-url="$1" --schema-path="$2"
