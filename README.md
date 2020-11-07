@@ -7,7 +7,6 @@ GitHub Action to generate RSS feeds from [weneedfeed](https://github.com/r7kamur
 This is an example `.github/workflows/publish.yml` for a GitHub Action workflow that generates RSS feeds from `weneedfeed.yml` and then publish them to GitHub Pages.
 
 ```yaml
-# .github/workflows/publish.yml
 name: publish
 
 on:
