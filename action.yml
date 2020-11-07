@@ -1,0 +1,16 @@
+name: weneedfeed
+description: Generate RSS feeds
+inputs:
+  base_url:
+    description: Base URL to generate URLs in weneedfeed. (e.g. `"https://user.github.io/repo"`)
+    required: true
+  schema_path:
+    description: Path to weneedfeed schema YAML file.
+    required: true
+    default: weneedfeed.yml
+runs:
+  using: docker
+  image: Dockerfile
+  args:
+    - ${{ inputs.base_url }}
+    - ${{ inputs.schema_path }}
