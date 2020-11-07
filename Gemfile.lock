@@ -28,15 +28,17 @@ GEM
       rack
     rake (13.0.1)
     ruby2_keywords (0.0.2)
+    thor (1.0.1)
     tilt (2.0.10)
     transproc (1.1.1)
     url_mount (0.2.1)
       rack
-    weneedfeed (0.2.0)
+    weneedfeed (0.3.0)
       faraday
       hibana
       nokogiri
       rack-capture (>= 0.4.0)
+      thor
 
 PLATFORMS
   ruby
