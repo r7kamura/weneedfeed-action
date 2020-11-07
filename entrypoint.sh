@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-bundle exec rake build[$1,$2]
+BUNDLE_GEMFILE=/app/Gemfile bundle exec rake --rakefile /app/Rakefile build[$1,$2]
