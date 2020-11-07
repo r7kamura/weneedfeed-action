@@ -1,5 +1,5 @@
 name: Weneedfeed
-description: Generate feeds from weneedfeed.yml.
+description: Generate RSS feeds from weneedfeed.yml.
 inputs:
   base_url:
     description: Base URL for weneedfeed. (e.g. `"https://user.github.io/repo"`)
