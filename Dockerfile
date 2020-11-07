@@ -7,4 +7,4 @@ RUN bundle install
 
 COPY . /app
 
-ENTRYPOINT ["bundle", "exec", "rake", "build"]
+ENTRYPOINT ["rake", "build"]
