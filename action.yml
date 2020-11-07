@@ -14,3 +14,6 @@ runs:
   args:
     - ${{ inputs.base_url }}
     - ${{ inputs.schema_path }}
+branding:
+  color: orange
+  icon: rss
