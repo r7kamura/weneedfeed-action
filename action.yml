@@ -1,11 +1,11 @@
-name: weneedfeed
-description: Generate RSS feeds
+name: Weneedfeed
+description: Generate feeds from weneedfeed.yml.
 inputs:
   base_url:
-    description: Base URL to generate URLs in weneedfeed. (e.g. `"https://user.github.io/repo"`)
+    description: Base URL for weneedfeed. (e.g. `"https://user.github.io/repo"`)
     required: true
   schema_path:
-    description: Path to weneedfeed schema YAML file.
+    description: Path to weneedfeed YAML schema file.
     required: true
     default: weneedfeed.yml
 runs:
