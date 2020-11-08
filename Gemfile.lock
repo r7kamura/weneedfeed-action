@@ -33,7 +33,7 @@ GEM
     transproc (1.1.1)
     url_mount (0.2.1)
       rack
-    weneedfeed (0.4.0)
+    weneedfeed (0.4.1)
       faraday
       hibana
       nokogiri
