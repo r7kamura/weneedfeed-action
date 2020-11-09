@@ -13,6 +13,8 @@ on:
   push:
     branches:
       - master
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
   publish:
