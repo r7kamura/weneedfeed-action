@@ -9,8 +9,8 @@ GEM
       mustermann-contrib (~> 1.0)
       rack (~> 2.0)
     hansi (0.2.0)
-    hibana (0.1.1)
-      hanami-router
+    hibana (0.2.0)
+      hanami-router (>= 2.0.0.alpha3)
       rack
       tilt
     mini_portile2 (2.4.0)
@@ -29,10 +29,9 @@ GEM
     ruby2_keywords (0.0.2)
     thor (1.0.1)
     tilt (2.0.10)
-    weneedfeed (0.6.0)
+    weneedfeed (0.6.1)
       faraday
-      hanami-router (= 2.0.0.alpha3)
-      hibana
+      hibana (>= 0.2)
       nokogiri
       rack-capture (>= 0.4.0)
       thor
