@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: r7kamura/weneedfeed-action@v2
+      - uses: r7kamura/weneedfeed-action@v3
         with:
           base_url: https://user.github.io/repo
       - uses: peaceiris/actions-gh-pages@v3
