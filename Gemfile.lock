@@ -1,9 +1,19 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    activesupport (6.0.3.4)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+      zeitwerk (~> 2.2, >= 2.2.2)
+    builder (3.2.4)
+    concurrent-ruby (1.1.7)
     faraday (1.1.0)
       multipart-post (>= 1.2, < 3)
       ruby2_keywords
+    faraday_middleware (1.0.0)
+      faraday (~> 1.0)
     hanami-router (2.0.0.alpha3)
       mustermann (~> 1.0)
       mustermann-contrib (~> 1.0)
@@ -13,7 +23,10 @@ GEM
       hanami-router (>= 2.0.0.alpha3)
       rack
       tilt
+    i18n (1.8.5)
+      concurrent-ruby (~> 1.0)
     mini_portile2 (2.4.0)
+    minitest (5.14.2)
     multipart-post (2.1.1)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
@@ -28,13 +41,20 @@ GEM
     rake (13.0.1)
     ruby2_keywords (0.0.2)
     thor (1.0.1)
+    thread_safe (0.3.6)
     tilt (2.0.10)
-    weneedfeed (0.6.1)
+    tzinfo (1.2.8)
+      thread_safe (~> 0.1)
+    weneedfeed (0.7.0)
+      activesupport
+      builder
       faraday
+      faraday_middleware
       hibana (>= 0.2)
       nokogiri
       rack-capture (>= 0.4.0)
       thor
+    zeitwerk (2.4.1)
 
 PLATFORMS
   ruby
