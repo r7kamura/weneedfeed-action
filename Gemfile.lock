@@ -45,7 +45,7 @@ GEM
     tilt (2.0.10)
     tzinfo (1.2.8)
       thread_safe (~> 0.1)
-    weneedfeed (0.7.2)
+    weneedfeed (0.8.0)
       activesupport
       builder
       faraday
