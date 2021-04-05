@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Changed
+
+- Use BUNDLE_GEMFILE instead of --gemfile option.
+
 ## 3.3.3 - 2021-04-05
 
 ### Changed
