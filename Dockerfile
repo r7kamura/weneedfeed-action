@@ -1,5 +1,7 @@
 FROM ruby:2.6.6
 
+ENV BUNDLE_GEMFILE /app/Gemfile
+
 WORKDIR /app
 
 COPY Gemfile Gemfile.lock /app/
