@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Changed
+
+- Upgrade weneedfeed from 0.9.2 to 0.11.0.
+
 ## 3.3.4 - 2021-04-05
 
 ### Changed

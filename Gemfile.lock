@@ -1,20 +1,39 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (6.0.3.4)
+    activesupport (7.0.2.3)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (>= 0.7, < 2)
-      minitest (~> 5.1)
-      tzinfo (~> 1.1)
-      zeitwerk (~> 2.2, >= 2.2.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
     builder (3.2.4)
-    concurrent-ruby (1.1.7)
-    faraday (1.1.0)
+    concurrent-ruby (1.1.10)
+    faraday (1.10.0)
+      faraday-em_http (~> 1.0)
+      faraday-em_synchrony (~> 1.0)
+      faraday-excon (~> 1.1)
+      faraday-httpclient (~> 1.0)
+      faraday-multipart (~> 1.0)
+      faraday-net_http (~> 1.0)
+      faraday-net_http_persistent (~> 1.0)
+      faraday-patron (~> 1.0)
+      faraday-rack (~> 1.0)
+      faraday-retry (~> 1.0)
+      ruby2_keywords (>= 0.0.4)
+    faraday-em_http (1.0.0)
+    faraday-em_synchrony (1.0.0)
+    faraday-excon (1.1.0)
+    faraday-httpclient (1.0.1)
+    faraday-multipart (1.0.3)
       multipart-post (>= 1.2, < 3)
-      ruby2_keywords
-    faraday_middleware (1.0.0)
+    faraday-net_http (1.0.1)
+    faraday-net_http_persistent (1.2.0)
+    faraday-patron (1.0.0)
+    faraday-rack (1.0.0)
+    faraday-retry (1.0.3)
+    faraday_middleware (1.2.0)
       faraday (~> 1.0)
-    hanami-router (2.0.0.alpha3)
+    hanami-router (2.0.0.alpha5)
       mustermann (~> 1.0)
       mustermann-contrib (~> 1.0)
       rack (~> 2.0)
@@ -23,42 +42,40 @@ GEM
       hanami-router (>= 2.0.0.alpha3)
       rack
       tilt
-    i18n (1.8.5)
+    i18n (1.10.0)
       concurrent-ruby (~> 1.0)
-    mimemagic (0.4.3)
-      nokogiri (~> 1)
-      rake
-    mini_portile2 (2.4.0)
-    minitest (5.14.2)
+    marcel (1.0.2)
+    mini_portile2 (2.8.0)
+    minitest (5.15.0)
     multipart-post (2.1.1)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     mustermann-contrib (1.1.1)
       hansi (~> 0.2.0)
       mustermann (= 1.1.1)
-    nokogiri (1.10.10)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.13.4)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
+    racc (1.6.0)
     rack (2.2.3)
     rack-capture (0.4.0)
       rack
     rake (13.0.1)
-    ruby2_keywords (0.0.2)
-    thor (1.0.1)
-    thread_safe (0.3.6)
+    ruby2_keywords (0.0.5)
+    thor (1.2.1)
     tilt (2.0.10)
-    tzinfo (1.2.8)
-      thread_safe (~> 0.1)
-    weneedfeed (0.9.2)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
+    weneedfeed (0.11.0)
       activesupport
       builder
       faraday
       faraday_middleware
       hibana (>= 0.2)
-      mimemagic
+      marcel
       nokogiri
       rack-capture (>= 0.4.0)
       thor
-    zeitwerk (2.4.2)
 
 PLATFORMS
   ruby
@@ -68,4 +85,4 @@ DEPENDENCIES
   weneedfeed
 
 BUNDLED WITH
-   1.17.2
+   1.17.3
