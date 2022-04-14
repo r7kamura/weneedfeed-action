@@ -12,7 +12,7 @@ name: publish
 on:
   push:
     branches:
-      - master
+      - main
   schedule:
     - cron: "0 0 * * *"
 
