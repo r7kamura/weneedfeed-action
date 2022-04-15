@@ -72,7 +72,7 @@ GEM
     tilt (2.0.10)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
-    weneedfeed (0.16.1)
+    weneedfeed (0.17.0)
       activesupport
       addressable
       builder
