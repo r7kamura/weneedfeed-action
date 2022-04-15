@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 3.9.0 - 2022-04-15
+
 ### Changed
 
 - Upgrade weneedfeed from 0.16.1 to 0.17.0.
