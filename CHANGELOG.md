@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## 3.9.1 - 2022-04-16
+
+### Changed
+
+- Changed nothing.
+
 ## 3.9.0 - 2022-04-15
 
 ### Changed
