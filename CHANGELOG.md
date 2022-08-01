@@ -5,6 +5,7 @@
 ### Changed
 
 - Upgrade bundler version to 2.3.19.
+- Upgrade weneedfeed from 0.19.0 to 0.19.1.
 
 ## 3.11.1 - 2022-08-01
 
