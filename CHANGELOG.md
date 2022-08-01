@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 3.11.3 - 2022-08-01
+
 ### Changed
 
 - Downgrade bundler version to 2.1.4.
