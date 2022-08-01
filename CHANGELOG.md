@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Changed
+
+- Upgrade bundler version to 2.3.19.
+
 ## 3.11.1 - 2022-08-01
 
 ## 3.11.0 - 2022-08-01
