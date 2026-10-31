@@ -1,0 +1,9 @@
+title: Test feeds
+pages:
+  - id: example
+    title: Example
+    description: Test feed
+    url: https://example.com/
+    item_selector: body
+    item_link_selector: a
+    item_title_selector: h1

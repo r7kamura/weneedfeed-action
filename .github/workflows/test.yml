@@ -10,6 +10,20 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: docker build
-      run: docker build --tag weneedfeed-action .
+      - uses: actions/checkout@v7
+      - name: docker build
+        run: docker build --tag weneedfeed-action .
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./
+        with:
+          base_url: https://example.com/feeds
+          schema_path: test/weneedfeed.yml
+      - name: Check generated feed
+        run: |
+          test -f output/index.html
+          test -f output/opml.xml
+          grep -q '<rss' output/feeds/example.xml
+          grep -q '<item>' output/feeds/example.xml
