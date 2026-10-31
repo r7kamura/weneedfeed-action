@@ -1,6 +1,8 @@
-FROM ruby:2.7.6
+FROM ruby:3.4
 
-ENV BUNDLE_GEMFILE /app/Gemfile
+ENV BUNDLE_GEMFILE=/app/Gemfile
+# weneedfeed 0.21.0 uses URI without requiring it.
+ENV RUBYOPT=-ruri
 
 WORKDIR /app
 
