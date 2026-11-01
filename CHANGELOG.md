@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+## 3.12.0 - 2026-11-01
+
+### Changed
+
+- Upgrade Ruby from 2.7.6 to 3.4.
+- Upgrade weneedfeed from 0.19.2 to 0.21.0.
+- Upgrade bundler from 2.1.4 to 2.7.2.
+
 ## 3.11.4 - 2022-08-01
 
 ### Changed
